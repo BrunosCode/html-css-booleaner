@@ -46,3 +46,38 @@ h1 + p {
     color: #20A9E5;
 }
 
+/* Photo Section */
+.note {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* Content section */
+.highlighted {
+    background-color: yellow;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    text-align: left; 
+}
+
+thead {
+    color: white;
+    background-color: #20A9E5;
+}
+
+th:last-child {
+    width: 50%;
+}
+
+th, td {
+    padding: .5em;
+    border: none;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #B1E5F2;
+}
