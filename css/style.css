@@ -1,3 +1,4 @@
+/* general rule  */
 * {
     box-sizing: border-box;
 }
@@ -11,6 +12,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
+/* header with logo */
 header {
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
@@ -22,3 +24,25 @@ header {
     width: 200px;
     padding: 40px 0 0 10px;
 }
+
+
+/* Titole section */
+h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+h1 + p {
+    color: gray;
+    margin-top: 0;
+}
+
+.small {
+    font-size: 12px;
+}
+
+#author {
+    text-decoration: none;
+    color: #20A9E5;
+}
+
