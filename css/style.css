@@ -86,12 +86,13 @@ tbody tr:nth-child(odd) {
 footer p {
     color: gray;
     font-weight: bold;
-    margin: 2em 0 0 0;
 }
 
 footer div {
     width: 200px;
-    height: 160px;
+    height: 150px;
+    padding: 1px 8px;
+    margin-top: 10px;
 }
 
 footer div h4 {
