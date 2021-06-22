@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-header, main, footer {
+nav, main, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -22,7 +22,7 @@ header {
 
 #logo {
     width: 200px;
-    padding: 40px 0 0 10px;
+    padding: 40px 0 0 0px;
 }
 
 
@@ -86,7 +86,7 @@ tbody tr:nth-child(odd) {
 footer p {
     color: gray;
     font-weight: bold;
-    margin-top: 2em;
+    margin: 2em 0 0 0;
 }
 
 footer div {
